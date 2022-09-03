@@ -1,4 +1,32 @@
 .dashboard-body{
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 5fr;
 }
+
+.side-panel{
+    background-color: rgb(51, 16, 177);
+    color:white;
+}
+
+.side-panel > ul{
+    list-style-type: none;
+    font-size: 22px;
+}
+
+.dashboard{
+    display: grid;
+    grid-template-rows: 1fr 2fr 8fr;
+}
+
+.top-bar{
+
+}
+
+.admin-actions{
+
+}
+
+.dashboard-items{
+    
+}
+
