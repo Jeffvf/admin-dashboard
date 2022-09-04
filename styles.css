@@ -97,11 +97,13 @@ button:active{
 }
 
 input{
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(212, 212, 212);
     border-radius: 10px;
     border-color: white;
     width: 60em;
     height: 20px;
+    border-style: none;
+    padding: 5px
 }
 
 .search, .username{
