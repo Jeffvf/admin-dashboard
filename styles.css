@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+}
+
 .dashboard-body{
     display: grid;
     grid-template-columns: 1fr 5fr;
