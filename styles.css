@@ -84,7 +84,7 @@ button{
 
 .search-bar{
     display: grid;
-    grid-template-columns: 5fr 1fr;
+    grid-auto-flow: column;
 }
 
 input{
