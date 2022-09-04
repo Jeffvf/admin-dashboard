@@ -61,7 +61,7 @@ ul{
     gap: 10px;
 }
 
-.user > img{
+.profile-icon{
     background-color: rgb(153, 153, 255);
     border-radius: 50px;
 }
@@ -87,7 +87,35 @@ button{
     justify-self: center;
 }
 
-.dashboard-items{
+.search-bar{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
 
+input{
+    background-color: rgb(231, 231, 231);
+    border-radius: 10px;
+    border-color: white;
+    width: 60em;
+    height: 20px;
+}
+
+.search, .username{
+    align-self: center;
+    justify-self: center;
+}
+
+.username{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: start;
+    align-items: center;
+}
+
+span{
+    font-weight: bold;
+}
+.dashboard-items{
+    background-color: rgb(231, 231, 231);
 }
 
