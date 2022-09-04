@@ -115,8 +115,22 @@ span{
     background-color: rgb(231, 231, 231);
     display:grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr 6fr;
     padding: 30px;
+    gap: 30px;
+}
+
+.your-projects{
+    display: grid;
+    grid-template-rows: 100px auto;
+}
+
+.project-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: row;
+    justify-items: stretch;
+    align-items: stretch;
+    gap: 20px;
 }
 
 .card{
@@ -126,12 +140,8 @@ span{
     border-radius: 10px;
 }
 
-.project-cards{
+.right-side-board{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-auto-flow: row;
-    justify-items: stretch;
-    align-items: stretch;
-    gap: 20px;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px
 }
