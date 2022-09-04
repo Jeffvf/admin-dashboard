@@ -141,6 +141,12 @@ span{
     border-radius: 10px;
 }
 
+.project-cards > .card{
+    border-left-style: solid;
+    border-left-color: blueviolet;
+    border-left-width: 10px;
+}
+
 .right-side-board{
     display: grid;
     grid-template-rows: 1fr 1fr;
