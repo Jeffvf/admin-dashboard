@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
 *{
     margin: 0px;
     list-style-type: none;
     padding: 0px;
+    font-family: 'Alice', serif;
 }
 
 .dashboard-body{
@@ -132,7 +135,7 @@ span{
 
 .your-projects{
     display: grid;
-    grid-template-rows: 100px auto;
+    grid-template-rows: 60px auto;
 }
 
 .project-cards{
@@ -164,6 +167,6 @@ span{
     gap: 10px
 }
 
-.announcement-topics{
+.announcement-topics, .trending-topics{
     margin-bottom: 15px;
 }
