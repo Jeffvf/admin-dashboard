@@ -60,6 +60,7 @@ li:hover{
 .top-bar{
     display: grid;
     grid-template-rows: 1fr 2fr;
+    margin: 10px;
 }
 
 .admin-actions{
