@@ -145,11 +145,12 @@ span{
 }
 
 .card{
-    padding: 45px;
+    padding: 30px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     background-color: white;
     border-radius: 10px;
 }
+
 
 .project-cards > .card{
     border-left-style: solid;
@@ -161,4 +162,8 @@ span{
     display: grid;
     grid-template-rows: 1fr 1fr;
     gap: 10px
+}
+
+.announcement-topics{
+    margin-bottom: 15px;
 }
