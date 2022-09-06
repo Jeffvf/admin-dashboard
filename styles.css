@@ -166,6 +166,15 @@ span{
     border-radius: 10px;
 }
 
+.project-cards > .card > p::after{
+    display: grid;
+    content: url(img/favorite.png) url(img/pencil.png) url(img/share-variant.png);
+    color: red;
+    height: 50px;
+    justify-items: end;
+    align-items: end;
+}
+
 
 .project-cards > .card{
     border-left-style: solid;
